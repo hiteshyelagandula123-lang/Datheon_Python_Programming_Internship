@@ -1,45 +1,39 @@
-# Hangman Word Guessing Game
+# Stock Portfolio Performance Tracker
 
 ## Internship Task
-Datheon Internship — Task 1
+Datheon Internship — Task 2
 
 ## Project Overview
-This project is a console-based Hangman word guessing game developed using Python. The player guesses a randomly selected English word one letter at a time.
+A Python console application that tracks stock holdings, calculates investment performance, and exports a portfolio summary to CSV.
 
 ## Features
-- Random secret word selection
-- Six incorrect guesses allowed
-- ASCII gallows display
-- Correct letters and hidden letters displayed
-- Previously guessed letters tracked
-- Duplicate guesses do not reduce attempts
-- Input validation
-- Win and lose messages
-- Option to play again
+- Validates stock ticker symbols against a company dataset.
+- Accepts stock symbols, share quantities, and purchase prices.
+- Calculates invested amounts and current portfolio values.
+- Calculates gain/loss and percentage returns.
+- Displays a formatted portfolio summary in the terminal.
+- Exports results to `portfolio_summary.csv`.
 
 ## Technologies
 - Python 3
+- CSV module
+- File handling
 - Python standard library
 
+## Files
+- `portfolio.py` — main application
+- `stocks.csv` — company information dataset
+- `portfolio_summary.csv` — generated portfolio report
+
 ## How to Run
-1. Install Python 3.
-2. Open a terminal in the project folder.
-3. Run:
+Open a terminal in this folder and execute:
 
-   `python hangman.py`
+`python portfolio.py`
 
-## Concepts Used
-- Variables and data types
-- Lists and sets
-- Loops and conditional statements
-- Functions
-- String manipulation
-- Random selection
-- Input validation
+Enter the ticker symbol, number of shares, and purchase price when prompted. Enter `DONE` to finish and save the report.
 
-## Project Files
-- `hangman.py` — game source code
-- `README.md` — project documentation
+## Price Data Note
+The current prices used in this version are illustrative sample prices defined in the program. They are not live market prices and should not be used for actual investment decisions.
 
 ## Author
 Hitesh Yelagandula
