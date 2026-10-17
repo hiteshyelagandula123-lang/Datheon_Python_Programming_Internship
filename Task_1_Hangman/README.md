@@ -1,24 +1,45 @@
 # Hangman Word Guessing Game
 
-A simple, interactive word guessing game developed using Python. The computer randomly selects a secret word, and the player guesses it one letter at a time. The game provides six incorrect attempts, displays Hangman graphics, tracks guessed letters, prevents duplicate guesses from reducing attempts, and announces whether the player wins or loses.
+## Internship Task
+Datheon Internship — Task 1
 
-## Technologies Used
+## Project Overview
+This project is a console-based Hangman word guessing game developed using Python. The player guesses a randomly selected English word one letter at a time.
+
+## Features
+- Random secret word selection
+- Six incorrect guesses allowed
+- ASCII gallows display
+- Correct letters and hidden letters displayed
+- Previously guessed letters tracked
+- Duplicate guesses do not reduce attempts
+- Input validation
+- Win and lose messages
+- Option to play again
+
+## Technologies
 - Python 3
-- Random module
-- Functions, loops, and conditional statements
+- Python standard library
 
 ## How to Run
 1. Install Python 3.
-2. Open a terminal in this folder.
-3. Run `python hangman.py`.
+2. Open a terminal in the project folder.
+3. Run:
 
-## Features
-- Random word selection
-- Letter-by-letter guessing
-- Six incorrect attempts
-- Duplicate guess detection
-- Win and lose messages
-- Option to play again
+   `python hangman.py`
+
+## Concepts Used
+- Variables and data types
+- Lists and sets
+- Loops and conditional statements
+- Functions
+- String manipulation
+- Random selection
+- Input validation
+
+## Project Files
+- `hangman.py` — game source code
+- `README.md` — project documentation
 
 ## Author
 Hitesh Yelagandula
